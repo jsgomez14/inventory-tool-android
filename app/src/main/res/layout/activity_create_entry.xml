@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CreateEntry">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/entry_provider_id"
+            android:hint="ID Proveedor"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:background="@color/teal_700"
+            android:layout_marginRight="30dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/entry_find_provider"
+            android:text="Buscar Proveedor"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            />
+    </LinearLayout>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/entry_provider_name"
+        android:hint="Nombre Proveedor"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:background="@color/teal_700"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/entry_product_id"
+            android:layout_marginRight="30dp"
+            android:hint="ID Producto"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:background="@color/teal_700"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/entry_find_product"
+            android:text="Buscar Producto"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/entry_product_name"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:hint="Nombre Producto"
+        android:background="@color/teal_700"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/entry_product_description"
+        android:hint="Descripción Producto"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:background="@color/teal_700"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/entry_product_measure"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:hint="Medida"
+        android:background="@color/teal_700"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/entry_quantity"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:maxLength="5"
+        android:hint="Cantidad"
+        android:background="@color/teal_700"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/entry_date"
+        android:hint="Fecha Entrada"
+        android:textColor="@color/black"
+        android:inputType="datetime"
+        android:background="@color/teal_700"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/entry_submit"
+        android:text="Crear Entrada"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"/>
+</LinearLayout>

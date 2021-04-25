@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="err_provider_name">Ingrese un nombre de proveedor valido</string>
+    <string name="err_provider_id">Ingrese un ID de proveedor valido</string>
+    <string name="err_product_id">Ingrese un ID de producto valido</string>
+    <string name="err_product_name">Ingrese un nombre de producto valido</string>
+    <string name="err_product_description">Ingrese una descripción de producto valida</string>
+    <string name="err_product_measure">Ingrese una medida de producto valida</string>
+    <string name="err_entry_quantity">Ingrese una cantidad de entrada valida</string>
+    <string name="err_entry_date">Ingrese una fecha de entrada valida</string>
+    <string name="err_out_value">Ingrese una valor de salida valido</string>
+    <string name="err_out_quantity">Ingrese una cantidad de salida valida</string>
+    <string name="err_out_date">Ingrese una fecha de salida valida</string>
+</resources>
